@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio Ayunda</title>
+
+    <!-- Font dari Google Fonts (butuh internet) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" />
+
+    <!-- File CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href="#beranda" aria-label="Ke beranda">ayunda<b>.</b></a>
+        <nav class="nav" id="nav" aria-label="Navigasi utama">
+          <a href="#beranda">Beranda</a>
+          <a href="#profil">Profil</a>
+          <a href="#tentang">Tentang</a>
+          <a href="#keahlian">Keahlian</a>
+          <a href="#proyek">Proyek</a>
+          <a href="#prestasi">Prestasi</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- 1. COVER -->
+      <section class="hero" id="beranda">
+        <div class="wrap hero-grid">
+          <div>
+            <span class="eyebrow">Portofolio · 2026</span>
+            <h1>Ayunda Septi <span>Maharani</span></h1>
+            <p class="school">XI PPLG 1 · SMK Negeri 5 Malang</p>
+            <p class="lede">Siswa Pengembangan Perangkat Lunak dan Gim yang senang belajar, mencoba hal baru, dan membuat karya dari ide sendiri.</p>
+            <div class="actions">
+              <a class="btn primary" href="#proyek">Lihat Proyek</a>
+              <a class="btn" href="#kontak">Hubungi Saya</a>
+            </div>
+          </div>
+          <div class="stage" id="stage">
+            <div class="stack" id="stack">
+              <div class="plate p1"></div>
+              <div class="plate p2"></div>
+              <div class="plate photo">
+                <img src="profil ayunda.png" alt="Foto Ayunda" />
+              </div>
+            </div>
+            <span class="fl" style="--x: 2%; --y: 10%; --d: 22"
+              ><span class="chip" style="--t: 5.5s"><i>&lt;</i>html<i>&gt;</i></span></span
+            >
+            <span class="fl" style="--x: 64%; --y: 4%; --d: -18"><span class="chip" style="--t: 7s; --dl: -2s">{ css }</span></span>
+            <span class="fl" style="--x: 0%; --y: 62%; --d: -24"
+              ><span class="chip" style="--t: 6.5s; --dl: -1s"><i>&lt;?php</i> echo <i>?&gt;</i></span></span
+            >
+            <span class="fl" style="--x: 62%; --y: 80%; --d: 20"><span class="chip" style="--t: 5s; --dl: -3s">Flutter</span></span>
+            <span class="fl" style="--x: 74%; --y: 42%; --d: -14"><span class="chip" style="--t: 8s; --dl: -4s">SELECT *</span></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. PROFIL DIRI -->
+      <section id="profil">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="eyebrow">Profil Diri</span>
+            <h2>Tentang identitas saya</h2>
+          </div>
+          <div class="profile-grid">
+            <div class="card">
+              <dl class="facts">
+                <div>
+                  <dt>Nama Lengkap</dt>
+                  <dd>Ayunda Septi Maharani</dd>
+                </div>
+                <div>
+                  <dt>Asal</dt>
+                  <dd>Malang</dd>
+                </div>
+                <div>
+                  <dt>Email</dt>
+                  <dd>ayundallea@gmail.com</dd>
+                </div>
+                <div>
+                  <dt>Sekolah</dt>
+                  <dd>SMK Negeri 5 Malang</dd>
+                </div>
+                <div>
+                  <dt>Kelas</dt>
+                  <dd>XI PPLG 1</dd>
+                </div>
+              </dl>
+              <p class="intro">
+                Saya adalah pribadi yang senang belajar, mencoba hal baru, dan terus mengembangkan diri. Memiliki ketertarikan dalam bidang teknologi dan pemrograman membuat saya ingin terus menambah pengetahuan serta pengalaman melalui
+                berbagai kegiatan dan proyek.
+              </p>
+            </div>
+            <div class="portrait" data-tilt>
+              <img src="ayunda.jpeg" alt="Foto Ayunda" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. TENTANG SAYA -->
+      <section id="tentang">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="eyebrow">Tentang Saya</span>
+            <h2>Belajar, berkarya, dan bermimpi jauh</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-col">
+              <div class="card" data-tilt>
+                <h3>Kepribadian</h3>
+                <p>Memiliki kemauan untuk terus berkembang.</p>
+              </div>
+              <div class="card" data-tilt>
+                <h3>Minat dan Hobi</h3>
+                <p>Saya memiliki hobi membuat berbagai karya berdasarkan ide dan kreativitas sendiri. Saya senang menciptakan sesuatu secara mandiri, kemudian memperkenalkan dan memamerkan hasil karya tersebut kepada orang lain.</p>
+                <p style="margin-top: 10px">Melalui hobi ini, saya ingin mengembangkan kreativitas, meningkatkan keterampilan, serta menciptakan karya yang memiliki nilai dan dapat menarik minat orang lain.</p>
+              </div>
+              <div class="card" data-tilt>
+                <h3>Tujuan ke Depan</h3>
+                <p>Saya memiliki impian untuk menjelajahi dunia, mengunjungi berbagai negara, dan mendapatkan pengalaman baru dari setiap tempat yang saya kunjungi.</p>
+                <p style="margin-top: 10px">
+                  Saya ingin terus mengembangkan diri, memiliki karier yang baik, serta suatu hari nanti mendapatkan kesempatan untuk bekerja atau tinggal di luar negeri. Saya berharap dapat mencapai kesuksesan melalui usaha sendiri,
+                  membanggakan keluarga, dan mewujudkan berbagai impian yang saya miliki.
+                </p>
+              </div>
+            </div>
+            <div class="code" data-tilt aria-label="Ringkasan dalam bentuk kode">
+              <div class="bar"><i></i><i></i><i></i><span>ayunda.js</span></div>
+              <pre><span class="c">// ringkasan singkat</span>
+<span class="k">const</span> ayunda = {
+  sekolah: <span class="s">"SMK Negeri 5 Malang"</span>,
+  jurusan: <span class="s">"PPLG"</span>,
+  sedangDipelajari: [
+    <span class="s">"Flutter"</span>,
+    <span class="s">"PHP"</span>,
+    <span class="s">"Database"</span>
+  ],
+  menulis: <span class="s">"cerpen dan novel"</span>,
+  ekskul: <span class="s">"Paskibra"</span>,
+  impian: <span class="s">"keliling dunia"</span>
+};</pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. KEMAMPUAN -->
+      <section id="keahlian">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="eyebrow">Kemampuan dan Keterampilan</span>
+            <h2>Dari kode sampai cerita</h2>
+          </div>
+          <div class="grid-4">
+            <article class="card" data-tilt>
+              <div class="skill-mark">&lt;/&gt;</div>
+              <h3>Dasar Pemrograman dan Teknologi</h3>
+              <p>Memiliki pengetahuan dasar dalam bidang pemrograman, seperti HTML, CSS, PHP, serta database. Saya masih terus mempelajari dan mengembangkan kemampuan tersebut untuk memperdalam pemahaman di bidang teknologi.</p>
+            </article>
+            <article class="card" data-tilt>
+              <div class="skill-mark">PB</div>
+              <h3>Kepemimpinan dan Kerja Sama Tim</h3>
+              <p>Memiliki pengalaman mengikuti ekstrakurikuler Paskibra dan pernah meraih prestasi di dalamnya. Pengalaman tersebut membantu saya mengembangkan kedisiplinan, tanggung jawab, kekompakan, dan kerja sama tim.</p>
+            </article>
+            <article class="card" data-tilt>
+              <div class="skill-mark">Aa</div>
+              <h3>Menulis Kreatif (Creative Writing)</h3>
+              <p>Memiliki kemampuan menulis cerita pendek dan pernah meraih juara dalam lomba menulis cerpen. Saat ini, saya juga sedang mengembangkan karya pribadi berupa novel yang berasal dari ide dan imajinasi sendiri.</p>
+            </article>
+            <article class="card" data-tilt>
+              <div class="skill-mark">AU</div>
+              <h3>Kreativitas Konten Digital</h3>
+              <p>
+                Memiliki pengalaman membuat konten kreatif berbasis cerita atau Alternate Universe (AU) dengan menggunakan identitas atau nama pena khusus. Kegiatan ini membantu saya mengembangkan kreativitas, penyusunan alur cerita, dan
+                kemampuan menyampaikan ide melalui media digital.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. PENGALAMAN DAN PROYEK (layar HP) -->
+      <section id="proyek">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="eyebrow">Pengalaman dan Proyek</span>
+            <h2>Ketuk ikonnya, lihat penjelasannya</h2>
+            <p>Dua layar HP di bawah ini berisi software yang saya pelajari dan proyek yang sudah saya kerjakan. Ketuk satu ikon untuk membuka penjelasannya.</p>
+          </div>
+          <div class="phones">
+            <!-- HP 1: software -->
+            <div class="phone-col">
+              <div class="phone" data-set="tools">
+                <i class="notch"></i>
+                <div class="screen">
+                  <div class="status"><span>09.41</span><span>Software</span></div>
+                  <div class="scr-title">Software yang saya pakai</div>
+                  <div class="apps">
+                    <button class="app" type="button" data-key="html"><span class="ico c1">&lt;/&gt;</span><span class="lbl">HTML</span></button>
+                    <button class="app" type="button" data-key="css"><span class="ico c2">{ }</span><span class="lbl">CSS</span></button>
+                    <button class="app" type="button" data-key="php"><span class="ico c3">php</span><span class="lbl">PHP</span></button>
+                    <button class="app" type="button" data-key="db">
+                      <span class="ico c4"
+                        ><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+                          <ellipse cx="14" cy="7" rx="9" ry="3.5" />
+                          <path d="M5 7v14c0 2 4 3.5 9 3.5s9-1.5 9-3.5V7M5 14c0 2 4 3.5 9 3.5s9-1.5 9-3.5" /></svg></span
+                      ><span class="lbl">Database</span>
+                    </button>
+                    <button class="app" type="button" data-key="xampp"><span class="ico c5">X</span><span class="lbl">XAMPP</span></button>
+                    <button class="app" type="button" data-key="flutter"><span class="ico c6">Fl</span><span class="lbl">Flutter</span></button>
+                    <button class="app" type="button" data-key="figma"><span class="ico c1">Ui</span><span class="lbl">Figma</span></button>
+                    <button class="app" type="button" data-key="vscode"><span class="ico c2">VS</span><span class="lbl">Visual Studio Code</span></button>
+                  </div>
+                  <p class="hint">Ketuk ikon untuk penjelasan</p>
+                  <div class="scrim"></div>
+                  <div class="sheet" role="dialog" aria-modal="true" aria-label="Penjelasan" inert>
+                    <button class="close" type="button" aria-label="Tutup">×</button>
+                    <div class="sheet-head">
+                      <span class="ico"></span>
+                      <div>
+                        <h4></h4>
+                        <span class="tag"></span>
+                      </div>
+                    </div>
+                    <div class="body"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="phone-cap">
+                <h3>Software dan teknologi</h3>
+                <p>HTML, CSS, PHP, database, XAMPP, Flutter, Figma, dan Visual Studio Code.</p>
+              </div>
+            </div>
+
+            <!-- HP 2: proyek -->
+            <div class="phone-col">
+              <div class="phone" data-set="proj">
+                <i class="notch"></i>
+                <div class="screen">
+                  <div class="status"><span>09.42</span><span>Proyek</span></div>
+                  <div class="scr-title">Proyek saya</div>
+                  <div class="apps">
+                    <button class="app" type="button" data-key="news"><span class="ico c3">News</span><span class="lbl">News Reader</span></button>
+                    <button class="app" type="button" data-key="notes"><span class="ico c4">Note</span><span class="lbl">Notes App</span></button>
+                    <button class="app" type="button" data-key="dbp">
+                      <span class="ico c6"
+                        ><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+                          <ellipse cx="14" cy="7" rx="9" ry="3.5" />
+                          <path d="M5 7v14c0 2 4 3.5 9 3.5s9-1.5 9-3.5V7M5 14c0 2 4 3.5 9 3.5s9-1.5 9-3.5" /></svg></span
+                      ><span class="lbl">Praktik Database</span>
+                    </button>
+                    <button class="app" type="button" data-key="ui"><span class="ico c1">Ui</span><span class="lbl">Desain Figma</span></button>
+                    <button class="app" type="button" data-key="other"><span class="ico c5">+</span><span class="lbl">Tugas lainnya</span></button>
+                  </div>
+                  <p class="hint">Ketuk ikon untuk penjelasan</p>
+                  <div class="scrim"></div>
+                  <div class="sheet" role="dialog" aria-modal="true" aria-label="Penjelasan" inert>
+                    <button class="close" type="button" aria-label="Tutup">×</button>
+                    <div class="sheet-head">
+                      <span class="ico"></span>
+                      <div>
+                        <h4></h4>
+                        <span class="tag"></span>
+                      </div>
+                    </div>
+                    <div class="body"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="phone-cap">
+                <h3>Proyek dan praktik</h3>
+                <p>Dua aplikasi Flutter, praktik database, rancangan Figma, dan tugas sekolah lainnya.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. SERTIFIKAT DAN PRESTASI -->
+      <section id="prestasi">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="eyebrow">Sertifikat dan Prestasi</span>
+            <h2>Bukti dari proses</h2>
+          </div>
+          <div class="ach-grid">
+            <article class="card" data-tilt>
+              <h3>Sertifikat Paskibra</h3>
+              <p>Dokumentasi dan sertifikat sebagai bukti pengalaman serta pencapaian dalam kegiatan Paskibra.</p>
+              <div class="gallery">
+                <img class="slot" src="kegiatan pakibra.jpeg" alt="Kegiatan Paskibra" />
+
+                <img class="slot" src="juara paskibra.jpeg" alt="Prestasi Paskibra" />
+              </div>
+              <span class="pending">Nama lomba dan capaian menyusul</span>
+            </article>
+            <article class="card" data-tilt>
+              <h3>Sertifikat Menulis Cerpen</h3>
+              <p>Dokumentasi dan sertifikat atas pencapaian dalam bidang kepenulisan kreatif.</p>
+              <div class="gallery">
+                <img class="slot" src="lomba cerpen.jpeg" alt="Lomba Cerpen" />
+
+                <img class="slot" src="menulis novel.jpeg" alt="Karya Menulis" />
+              </div>
+              <span class="pending">Nama lomba dan juara menyusul</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. KONTAK -->
+      <section id="kontak">
+        <div class="wrap">
+          <div class="contact">
+            <span class="eyebrow" style="color: #ff9ac8">Contact me</span>
+            <h2>Let's connect!</h2>
+            <p class="lead">Terbuka untuk mengenal pengalaman, ide, dan kesempatan baru.</p>
+            <div class="contact-rows">
+              <div class="row">
+                <span class="lab">Email</span>
+                <span class="val" id="mail">ayundallea@gmail.com</span>
+                <button type="button" id="copy">Salin</button>
+              </div>
+              <div class="row">
+                <span class="lab">Instagram</span>
+                <span class="val">allethaglavara</span>
+                <a class="go" href="https://www.instagram.com/allethaglavara/" target="_blank" rel="noopener">Buka</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. PENUTUP -->
+      <section class="closing" id="penutup">
+        <div class="wrap">
+          <h2>Thank you!</h2>
+          <p class="body">Terima kasih telah mengunjungi portofolio saya. Setiap pengalaman, proses, dan karya yang ditampilkan merupakan bagian dari perjalanan saya untuk terus belajar, berkembang, dan mewujudkan impian.</p>
+          <div class="goals card">
+            <h3>Harapan</h3>
+            <p>Saya berharap dapat memiliki karier yang sesuai dengan minat dan kemampuan saya, khususnya di bidang teknologi dan kreativitas.</p>
+            <p>Saya ingin terus mengembangkan keterampilan, memperoleh pengalaman baru, serta memiliki kesempatan untuk bekerja di lingkungan yang lebih luas, termasuk di luar negeri.</p>
+            <p>Saya juga ingin menjadikan kreativitas dan ide-ide yang saya miliki sebagai sesuatu yang bernilai dan bermanfaat.</p>
+          </div>
+          <p class="quote">Every great journey begins with a single step.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- File JavaScript (taruh di paling bawah) -->
+    <script src="script.js"></script>
+  </body>
+</html>
